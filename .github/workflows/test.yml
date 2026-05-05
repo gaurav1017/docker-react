@@ -24,4 +24,4 @@ jobs:
       name: Build Project
       run: npm run build
     - name: Deploy
-      run: each "Deploying ${{ github.repository }} to ${{ github.ref }}"
+      run: eacho "Deploying ..."
