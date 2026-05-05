@@ -24,4 +24,4 @@ jobs:
       name: Build Project
       run: npm run build
     - name: Deploy
-      run: eacho "Deploying ..."
+      run: echo "Deploying ..."
