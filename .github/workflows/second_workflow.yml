@@ -4,9 +4,10 @@ on:
     types: [opened, edited, closed]
 jobs: 
   test:
-   runs-on: ubuntu-latest
-   steps:
-      - name: Show issue
-        run: echo 'Title: ${{github.event.issue.title}}' 
+    runs-on: ubuntu-latest
+    steps:
+    - name: Show issue
+      run: |
+      echo 'Title: ${{github.event.issue.title}}' 
 
 
