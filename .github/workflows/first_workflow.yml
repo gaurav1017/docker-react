@@ -43,8 +43,7 @@ jobs:
         name: package file only
         path: |
            src/asset
-           package.json
-      package.json    
+           package.json    
     - name: deploy
       run: echo "Deploying..."        
 
