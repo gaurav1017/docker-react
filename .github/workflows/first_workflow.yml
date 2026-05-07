@@ -42,7 +42,7 @@ jobs:
       with: 
         name: package file only
         path: |
-           src/asset
+           src/assets
            package.json    
     - name: deploy
       run: echo "Deploying..."        
