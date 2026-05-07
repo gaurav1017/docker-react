@@ -48,7 +48,9 @@ jobs:
     - name: get arfifact here as well
       uses: actions/download-artifact@v4
       with:
-        name: package file only    
+        name: package file only
+    - name: output content
+      run: ls        
     - name: deploy
       run: echo "Deploying..."        
 
