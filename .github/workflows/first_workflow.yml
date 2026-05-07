@@ -12,7 +12,7 @@ jobs:
     - name: run lint
       run: npm run lint
   node_test:
-    needs: test
+    needs: lint
     runs-on: ubuntu-latest
     steps:
     - name: checkout code
